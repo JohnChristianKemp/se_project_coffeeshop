@@ -20,22 +20,40 @@
   <body>
     <div class="page">
       <header class="header">
-        <h1>Welcome to the Coffee Shop</h1>
+        <h1 class="header__title"><span class="header__title-highlight">Specialty Coffee</span></h1>
+        <p class="header__description">Welcome to our cozy coffee shop where we serve the finest specialty coffees and treats.</p>
+        <p class="header__footer">Operational Hours: Monday-Friday: 7:00 AM - 8:00 PM | Saturday-Sunday: 8:00 AM - 9:00 PM</p>
+        <nav class="header__nav">
+          <a href="#recipes" class="header__nav-link">Recipes</a>
+          <a href="#book-table" class="header__nav-link">Book a Table</a>
+          <a href="#menu" class="header__nav-link">Menu</a>
+          <a href="#contacts" class="header__nav-link">Contacts</a>
+        </nav>
       </header>
       <main class="content">
-        <section class="recipes">
-          <h2>Recipes</h2>
-          <p>Discover our unique coffee recipes to try at home.</p>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__description">Discover our unique coffee recipes to try at home and impress your taste buds with barista-level creations.</p>
+          <div class="recipes__videos">
+            <div class="recipes__video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZuQu12vMQZM?start=189" allowfullscreen></iframe>
+              <p class="recipes__video-caption">How to Make the Perfect Espresso</p>
+            </div>
+            <div class="recipes__video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/tg_BWkx20hE?start=189" allowfullscreen></iframe>
+              <p class="recipes__video-caption">Crafting a Delicious Latte Art</p>
+            </div>
+          </div>
         </section>
-        <section class="reservation">
+        <section class="reservation" id="book-table">
           <h2>Reservation</h2>
           <p>Book a table for your next visit to the Coffee Shop.</p>
         </section>
-        <section class="menu">
+        <section class="menu" id="menu">
           <h2>Menu</h2>
           <p>Explore our selection of handcrafted coffee and treats.</p>
         </section>
-        <section class="about">
+        <section class="about" id="contacts">
           <h2>About</h2>
           <p>Learn more about the Coffee Shop and our mission.</p>
         </section>
