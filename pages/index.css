@@ -9,7 +9,7 @@
   border-radius: 8px;
   font-size: 16px;
   line-height: 20px;
-  font-family: inter, Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .header {
@@ -53,14 +53,19 @@
   margin-top: 20px;
 }
 
+.nav__links {
+  display: flex; /* Aligns links in a row */
+  justify-content: center; /* Centers links horizontally */
+  gap: 15px; /* Adds spacing between links */
+}
+
 .header__nav-link {
-  color: #000000;
-  text-decoration: none;
-  margin: 0 15px;
+  color: #000000; /* Default link color */
+  text-decoration: none; /* Removes underline */
 }
 
 .header__nav-link:hover {
-  color: #3f96f3;
+  color: #3f96f3; /* Changes link color on hover */
 }
 
 .recipes {
