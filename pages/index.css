@@ -135,15 +135,18 @@ body {
 
 .reservation {
   padding: 100px 120px;
-  background-color: #f5f5f5;
+  background: #D9E7FF url('background_reservation.svg') no-repeat center center;
+  background-size: cover;
 }
 
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-  color: #333333;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  color: #000000;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .reservation__description {
@@ -158,62 +161,71 @@ body {
   max-width: 385px;
 }
 
-.reservation__fieldset {
+.form {
+  margin: 0;
+}
+
+.form__fieldset {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.reservation__label {
+.form__label {
   display: block;
   margin-bottom: 8px;
   font-size: 16px;
-  color: #333333;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #000000;
 }
 
-.reservation__input {
+.form__input {
   display: block;
   width: 100%;
   padding: 15px;
   margin: 8px 0 20px;
   font-size: 16px;
-  border: 1px solid #333833;
-  border-radius: 5px;
+  font-family: 'Inter', Arial, sans-serif;
+  border: 1px solid #838383;
+  border-radius: 4px;
   box-sizing: border-box;
 }
 
-.reservation__input:focus {
+.form__input:focus {
   outline: 1px solid #0078d4;
 }
 
-.reservation__label_type_checkbox {
+.form__checkbox {
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.form__label_type_checkbox {
   display: inline-flex;
   align-items: center;
   font-size: 14px;
+  font-family: 'Inter', Arial, sans-serif;
   color: #555555;
   margin-top: 15px;
 }
 
-.reservation__checkbox {
-  margin-right: 10px;
-}
-
-.reservation__button {
+.form__button {
   display: block;
   width: 100%;
   padding: 15px;
   font-size: 16px;
-  background-color: #0271e5;
+  background-color: #1878DC;
   color: #ffffff;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   text-align: center;
   cursor: pointer;
   margin-top: 20px;
+  transition: background-color 0.3s ease;
 }
 
-.reservation__button:hover {
-  background-color: #005bb5;
+.form__button:hover {
+  background-color: #3f96f3;
 }
 
 .menu__title,
