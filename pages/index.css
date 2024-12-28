@@ -54,18 +54,18 @@
 }
 
 .nav__links {
-  display: flex; /* Aligns links in a row */
-  justify-content: center; /* Centers links horizontally */
-  gap: 15px; /* Adds spacing between links */
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 .header__nav-link {
-  color: #000000; /* Default link color */
-  text-decoration: none; /* Removes underline */
+  color: #000000;
+  text-decoration: none;
 }
 
 .header__nav-link:hover {
-  color: #3f96f3; /* Changes link color on hover */
+  color: #3f96f3;
 }
 
 .recipes {
@@ -146,33 +146,59 @@ body {
   color: #333333;
 }
 
+.reservation__description {
+  text-align: center;
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 40px;
+}
+
 .reservation__form {
   margin: 0 auto;
   max-width: 385px;
 }
 
-.form__fieldset {
+.reservation__fieldset {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.form__input {
+.reservation__label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.reservation__input {
   display: block;
   width: 100%;
   padding: 15px;
-  margin: 8px 0;
+  margin: 8px 0 20px;
   font-size: 16px;
   border: 1px solid #333833;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
-.form__input:focus {
+.reservation__input:focus {
   outline: 1px solid #0078d4;
 }
 
-.form__button {
+.reservation__label_type_checkbox {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555555;
+  margin-top: 15px;
+}
+
+.reservation__checkbox {
+  margin-right: 10px;
+}
+
+.reservation__button {
   display: block;
   width: 100%;
   padding: 15px;
@@ -183,26 +209,17 @@ body {
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
+  margin-top: 20px;
 }
 
-.form__button:hover {
+.reservation__button:hover {
   background-color: #005bb5;
 }
 
-.form__checkbox {
-  margin-right: 10px;
-}
-
-.form__label_type_checkbox {
-  display: inline-flex;
-  align-items: center;
-  font-size: 14px;
-  color: #555555;
-}
-
-.reservation__description {
-  max-width: 385px;
-  margin: 0 auto 20px;
+.menu__title,
+.menu__description,
+.about__title,
+.about__description {
   text-align: center;
-  color: #333333;
-  }
+  margin-bottom: 20px;
+}
