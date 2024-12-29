@@ -18,28 +18,32 @@
   font-weight: 500;
   line-height: 52px;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  margin_top: 100px;
+  max-width: 780px;
 }
 
 .menu__subtitle {
   font-family: 'Noto Serif', Times New Roman, serif;
   font-size: 20px;
   font-weight: normal;
+  font-style: normal;
   line-height: 30px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
+  max-width: 780px;
 }
 
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 100px;
 }
 
 .card {
   background-color: transparent;
-  border-radius: 0;
+
   padding: 20px;
   max-width: 540px;
   flex: 1 1 300px;
@@ -49,9 +53,10 @@
 .card__title {
   font-family: 'Inter', Arial, sans-serif;
   font-size: 20px;
+  line-height: 30px;
   font-weight: bold;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   text-align: center;
 }
 
@@ -60,15 +65,15 @@
   justify-content: space-between;
   align-items: center;
   font-family: 'Noto Serif', Times New Roman, serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
   text-align: left;
-  word-wrap: break-word;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+
+
+
 }
 
 .card__list-divider {
