@@ -22,8 +22,7 @@
     <div class="page">
       <!-- Header -->
       <header class="header">
-        <img src="../images/logo_coffeeshop_dark.svg" alt="Coffee Shop Logo" class="Nav__logo" />
-        <h1 class="header__title">
+ <h1 class="header__title">
           <span class="header__title-highlight">Specialty Coffee</span>
           <br />in the Triple Peaks Library
         </h1>
@@ -36,8 +35,9 @@
           Monday – Friday (10:00 – 19:00)<br />
           Saturday – Sunday (11:00 – 18:00)
         </p>
-        <nav class="header__nav">
-          <ul class="header__links">
+        <nav class="nav">
+          <img src="../images/logo_coffeeshop_dark.svg" alt="Coffee Shop Logo" class="nav__logo" />
+          <ul class="nav__links">
             <li><a href="#recipes" class="header__nav-link">Recipes</a></li>
             <li><a href="#book-table" class="header__nav-link">Book a Table</a></li>
             <li><a href="#menu" class="header__nav-link">Menu</a></li>
@@ -80,6 +80,7 @@
         <section class="reservation" id="book-table">
           <h2 class="reservation__title">Reservation</h2>
           <p class="reservation__description">Book a table for your next visit to the Coffee Shop.</p>
+          <div class="form">
           <form class="reservation__form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name</label>
@@ -97,6 +98,7 @@
             </fieldset>
             <button type="submit" class="form__button">Book a Table</button>
           </form>
+        </div>
         </section>
         <!-- Menu -->
         <section class="menu" id="menu">

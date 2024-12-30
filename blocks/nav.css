@@ -1,8 +1,5 @@
 .nav {
   margin-top: 20px;
-}
-
-.header__nav {
   position: absolute;
   top: 30px;
   right: 80px;
@@ -10,11 +7,22 @@
   gap: 20px;
 }
 
-.nav__links {
-  list-style: none;
+.nav__logo {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  position: absolute;
+  width: 105px;
+  height: 39px;
+  top: 30px;
+  left: 30;
+
+}
+
+.nav__links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header__nav-link {

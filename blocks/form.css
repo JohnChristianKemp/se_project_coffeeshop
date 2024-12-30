@@ -1,3 +1,12 @@
+.form {
+  background-color: #D9E7FF;
+  max-width: 385px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
 .form__fieldset {
   margin: 0;
   padding: 0;
