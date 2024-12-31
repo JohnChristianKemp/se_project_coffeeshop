@@ -1,23 +1,27 @@
 .nav {
-  margin-top: 20px;
   position: absolute;
-  top: 30px;
-  right: 80px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
 }
 
 .nav__logo {
-  display: flex;
   position: absolute;
-  width: 105px;
-  height: 39px;
   top: 30px;
-  left: 30;
-
+  left: 30px;
+  max-width: 105px;
+  height: 39px;
 }
 
 .nav__links {
+  position: absolute;
+  top: 30px;
+  right: 80px;
   display: flex;
   gap: 30px;
   list-style: none;
@@ -25,13 +29,3 @@
   padding: 0;
 }
 
-.header__nav-link {
-  color: #000000;
-  text-decoration: none;
-  transition: opacity 0.3s ease, color 0.3s ease;
-}
-
-.header__nav-link:hover {
-  color: #3f96f3;
-  opacity: 0.5;
-}
