@@ -1,6 +1,7 @@
 .reservation {
   padding: 100px 120px;
-  background: #D9E7FF url('../images/background_reservation.svg') no-repeat center center;
+  background: #d9e7ff url("../images/background_reservation.svg") no-repeat
+    center center;
   background-size: cover;
 }
 
@@ -11,7 +12,7 @@
   font-weight: 500;
   line-height: 52px;
   color: #000000;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .reservation__description {

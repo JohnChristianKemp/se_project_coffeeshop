@@ -1,5 +1,6 @@
 .menu {
-  background: #ffffff url('../images/background_menu.svg') no-repeat center center;
+  background: #ffffff url("../images/background_menu.svg") no-repeat center
+    center;
   background-size: cover;
   padding: 100px 20px;
   text-align: center;
@@ -11,7 +12,6 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
-
 }
 
 .menu ul {
@@ -21,18 +21,18 @@
 }
 
 .menu__title {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
   text-align: center;
   margin-bottom: 24px;
-  margin_top: 100px;
+  margin-top: 100px;
   max-width: 780px;
 }
 
 .menu__subtitle {
-  font-family: 'Noto Serif', Times New Roman, serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -48,5 +48,3 @@
   justify-content: center;
   gap: 20px;
 }
-
-

@@ -1,5 +1,5 @@
 .about {
-  background-color: #0A2850;
+  background-color: #0a2850;
   padding: 80px 40px;
   color: #ffffff;
   position: relative;
@@ -12,11 +12,10 @@
   margin: 0 auto;
   z-index: 1;
   text-align: left;
-
 }
 
 .about__title {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 44px;
   font-weight: 500;
@@ -35,7 +34,7 @@
 }
 
 .about__paragraph {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-size: 20px;
   font-weight: normal;
   line-height: 30px;
@@ -49,7 +48,7 @@
 .about__circle {
   width: 426px;
   height: 426px;
-  background-color: #1878DC;
+  background-color: #1878dc;
   border-radius: 50%;
   position: absolute;
   z-index: -1;
@@ -61,7 +60,7 @@
 .about__circle_animation_blurred {
   width: 426px;
   height: 426px;
-  background-color: #1878DC;
+  background-color: #1878dc;
   border-radius: 50%;
   position: absolute;
   z-index: -1;

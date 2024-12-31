@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Shop</title>
     <meta name="author" content="John Kemp" />
-    <meta name="description" content="A coffee shop project website showcasing HTML and CSS skills." />
+    <meta
+      name="description"
+      content="A coffee shop project website showcasing HTML and CSS skills."
+    />
     <meta name="keywords" content="Coffee Shop, HTML, CSS, Web Development" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,10 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./blocks/card.css" />
-    <link rel="stylesheet" href="./blocks/menu.css" />
-    <link rel="stylesheet" href="./blocks/header.css" />
+
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
@@ -25,13 +25,18 @@
     <div class="page">
       <!-- Header -->
       <header class="header">
- <h1 class="header__title">
+        <h1 class="header__title">
           <span class="header__title-highlight">Specialty Coffee</span>
           <br />in the Triple Peaks Library
         </h1>
-        <img src="images/inside_coffee_shop.png" alt="Coffee shop" class="header__image" />
+        <img
+          src="images/inside_coffee_shop.png"
+          alt="Coffee shop"
+          class="header__image"
+        />
         <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
         </p>
         <p class="header__footer">
           <span class="header__footer-title">Hours:</span><br />
@@ -39,10 +44,16 @@
           Saturday – Sunday (11:00 – 18:00)
         </p>
         <nav class="nav">
-          <img src="../images/logo_coffeeshop_dark.svg" alt="Coffee Shop Logo" class="nav__logo" />
+          <img
+            src="../images/logo_coffeeshop_dark.svg"
+            alt="Coffee Shop Logo"
+            class="nav__logo"
+          />
           <ul class="nav__links">
             <li><a href="#recipes" class="header__nav-link">Recipes</a></li>
-            <li><a href="#book-table" class="header__nav-link">Book a Table</a></li>
+            <li>
+              <a href="#book-table" class="header__nav-link">Book a Table</a>
+            </li>
             <li><a href="#menu" class="header__nav-link">Menu</a></li>
             <li><a href="#contacts" class="header__nav-link">Contacts</a></li>
           </ul>
@@ -52,9 +63,12 @@
         <!-- Recipes -->
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <h3 class="recipes__subtitle">Learn to make your favorite coffee drinks at home</h3>
+          <h3 class="recipes__subtitle">
+            Learn to make your favorite coffee drinks at home
+          </h3>
           <p class="recipes__description">
-            Discover our unique coffee recipes to try at home and impress your taste buds with barista-level creations.
+            Discover our unique coffee recipes to try at home and impress your
+            taste buds with barista-level creations.
           </p>
           <div class="recipes__videos">
             <div class="recipes__video">
@@ -65,7 +79,9 @@
                 src="https://www.youtube.com/embed/ZuQu12vMQZM?start=189"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">How to Make the Perfect Espresso</p>
+              <p class="recipes__video-caption">
+                How to Make the Perfect Espresso
+              </p>
             </div>
             <div class="recipes__video">
               <iframe
@@ -75,67 +91,146 @@
                 src="https://www.youtube.com/embed/tg_BWkx20hE?start=189"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">Crafting a Delicious Latte Art</p>
+              <p class="recipes__video-caption">
+                Crafting a Delicious Latte Art
+              </p>
             </div>
           </div>
         </section>
         <!-- Reservation -->
         <section class="reservation" id="book-table">
           <h2 class="reservation__title">Reservation</h2>
-          <p class="reservation__description">Book a table for your next visit to the Coffee Shop.</p>
+          <p class="reservation__description">
+            Book a table for your next visit to the Coffee Shop.
+          </p>
           <div class="form">
-          <form class="reservation__form">
-            <fieldset class="form__fieldset">
-              <label for="name" class="form__label">Name</label>
-              <input type="text" id="name" name="name" class="form__input" placeholder="Your name" required />
-              <label for="email" class="form__label">Email</label>
-              <input type="email" id="email" name="email" class="form__input" placeholder="Your email" required />
-              <label for="date" class="form__label">Date & Time</label>
-              <input type="datetime-local" id="date" name="date" class="form__input" required />
-              <label for="guests" class="form__label">Number of Guests</label>
-              <input type="number" id="guests" name="guests" class="form__input" placeholder="Guests" min="1" max="8" required />
-              <label for="terms" class="form__label form__label_checkbox">
-                <input type="checkbox" id="terms" name="terms" class="form__checkbox" required />
-                I agree with the terms of use
-              </label>
-            </fieldset>
-            <button type="submit" class="form__button">Book a Table</button>
-          </form>
-        </div>
+            <form class="reservation__form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form__input"
+                  placeholder="Your name"
+                  required
+                />
+                <label for="email" class="form__label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form__input"
+                  placeholder="Your email"
+                  required
+                />
+                <label for="date" class="form__label">Date & Time</label>
+                <input
+                  type="datetime-local"
+                  id="date"
+                  name="date"
+                  class="form__input"
+                  required
+                />
+                <label for="guests" class="form__label">Number of Guests</label>
+                <input
+                  type="number"
+                  id="guests"
+                  name="guests"
+                  class="form__input"
+                  placeholder="Guests"
+                  min="1"
+                  max="8"
+                  required
+                />
+                <label for="terms" class="form__label form__label_checkbox">
+                  <input
+                    type="checkbox"
+                    id="terms"
+                    name="terms"
+                    class="form__checkbox"
+                    required
+                  />
+                  I agree with the terms of use
+                </label>
+              </fieldset>
+              <button type="submit" class="form__button">Book a Table</button>
+            </form>
+          </div>
         </section>
         <!-- Menu -->
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
-          <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.</p>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
           <div class="menu__cards">
             <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul>
-                <li class="card__list-item">Regular (12 oz)<span class="card__list-divider"></span>$1</li>
-                <li class="card__list-item">Large (16 oz)<span class="card__list-divider"></span>$1.25</li>
-                <li class="card__list-item">XL (20 oz)<span class="card__list-divider"></span>$1.50</li>
-                <li class="card__list-item">Party-size (24 oz, decaf)<span class="card__list-divider"></span>$1.75</li>
-                <li class="card__list-item">Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.25</li>
+                <li class="card__list-item">
+                  Regular (12 oz)<span class="card__list-divider"></span>$1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)<span class="card__list-divider"></span>$1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)<span class="card__list-divider"></span>$1.50
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)<span
+                    class="card__list-divider"
+                  ></span
+                  >$1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)<span class="card__list-divider"></span
+                  >$1.25
+                </li>
               </ul>
             </div>
             <div class="card">
               <h3 class="card__title">Espresso</h3>
               <ul>
-                <li class="card__list-item">Macchiato<span class="card__list-divider"></span>$2.25</li>
-                <li class="card__list-item">Cortado<span class="card__list-divider"></span>$2.50</li>
-                <li class="card__list-item">Mocha<span class="card__list-divider"></span>$3.00</li>
-                <li class="card__list-item">Sunrise in the Bay Area (decaf)<span class="card__list-divider"></span>$10.00</li>
+                <li class="card__list-item">
+                  Macchiato<span class="card__list-divider"></span>$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado<span class="card__list-divider"></span>$2.50
+                </li>
+                <li class="card__list-item">
+                  Mocha<span class="card__list-divider"></span>$3.00
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)<span
+                    class="card__list-divider"
+                  ></span
+                  >$10.00
+                </li>
               </ul>
             </div>
             <div class="card">
               <h3 class="card__title">Baked Goods</h3>
               <ul>
-                <li class="card__list-item">Almond Croissant<span class="card__list-divider"></span>$2.00</li>
-                <li class="card__list-item">Banana Bread<span class="card__list-divider"></span>$1.75</li>
-                <li class="card__list-item">Key Lime Pie<span class="card__list-divider"></span>$3.00</li>
-                <li class="card__list-item">Blue Velvet Cake<span class="card__list-divider"></span>$3.75</li>
-                <li class="card__list-item">Web Cookie<span class="card__list-divider"></span>$2.00</li>
-                <li class="card__list-item">Fresh Bug’uette<span class="card__list-divider"></span>$0.25</li>
+                <li class="card__list-item">
+                  Almond Croissant<span class="card__list-divider"></span>$2.00
+                </li>
+                <li class="card__list-item">
+                  Banana Bread<span class="card__list-divider"></span>$1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie<span class="card__list-divider"></span>$3.00
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie<span class="card__list-divider"></span>$2.00
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug’uette<span class="card__list-divider"></span>$0.25
+                </li>
               </ul>
             </div>
           </div>
@@ -144,9 +239,18 @@
         <section class="about" id="contacts">
           <h2 class="about__title">About the Coffee Shop</h2>
           <div class="about__content">
-            <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</p>
-            <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
-            <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
           </div>
           <div class="about__circle"></div>
           <div class="about__circle about__circle_animation_blurred"></div>
@@ -155,7 +259,11 @@
         <footer class="footer">
           <div class="footer__content">
             <div class="footer__logo">
-              <img src="images/logo_coffeeshop_light.svg" alt="Coffee Shop Logo" class="footer__logo-image" />
+              <img
+                src="images/logo_coffeeshop_light.svg"
+                alt="Coffee Shop Logo"
+                class="footer__logo-image"
+              />
               <p>&copy; 2024 John Kemp</p>
             </div>
             <div class="footer__column">
@@ -163,12 +271,22 @@
               <ul class="footer__list">
                 <li class="footer__list-item">
                   <a href="#" class="footer__social-link">
-                    <img src="images/facebook_white.svg" alt="Facebook" class="footer__social-icon" /> Facebook
+                    <img
+                      src="images/facebook_white.svg"
+                      alt="Facebook"
+                      class="footer__social-icon"
+                    />
+                    Facebook
                   </a>
                 </li>
                 <li class="footer__list-item">
                   <a href="#" class="footer__social-link">
-                    <img src="images/instagram_white.svg" alt="Instagram" class="footer__social-icon" /> Instagram
+                    <img
+                      src="images/instagram_white.svg"
+                      alt="Instagram"
+                      class="footer__social-icon"
+                    />
+                    Instagram
                   </a>
                 </li>
               </ul>
